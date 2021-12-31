@@ -1,0 +1,58 @@
+/* For Phone */
+
+@media screen and (max-width: 780px) {
+    .header_logo {
+        margin: 0 10px;
+    }
+
+    .header_logo {
+        font-size: 25px;
+    }
+
+    .nav {
+        font-size: 21px;
+        width: 100%;
+        max-width: 130px;
+        position: absolute;
+        top: 50px;
+        margin-top: 0;
+    }
+
+    .nav_link {
+        display: block;
+        text-shadow: 0px 0px 5px rgb(0, 0, 0);
+        font-size: 17px;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .nav_link_active {
+        color: #f7c18c;
+        font-size: 17px;
+        text-decoration: none;
+        font-weight: 800;
+        display: block;
+        text-shadow: 0px 0px 10px black;
+        margin: 10px;
+    }
+
+    #menuList {
+        overflow: hidden;
+        transition: 0.8s;
+    }
+
+    .intro {
+        background-position-x: -150px;
+    }
+
+    .intro_suptitle{
+        font-size: 24px;
+        margin-top: 45px;
+    }
+
+    .intro_title {
+        font-size: 34px;
+        line-height: 35px;
+    }
+
+}
